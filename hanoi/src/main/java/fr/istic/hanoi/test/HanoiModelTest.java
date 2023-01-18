@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * <p>
  * WARNING
  * <p>
- * If you are using modules (which the case here), you must add these options to the run configuration:
+ * If you are using modules (that is the case here), you must add these options to the run configuration:
  * <p>
  * --add-exports org.junit.platform.commons/org.junit.platform.commons.util=ALL-UNNAMED
  * --add-exports org.junit.platform.commons/org.junit.platform.commons.logging=ALL-UNNAMED
@@ -44,7 +44,7 @@ public class HanoiModelTest {
     }
 
     @Test
-    @DisplayName("Check is basic legal move")
+    @DisplayName("Check a basic legal move")
     void testMove1() throws IllegalMoveException {
         assertTrue(model.isValidMove(1, 2));
         model.move(1, 2);

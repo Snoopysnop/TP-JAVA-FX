@@ -2,6 +2,7 @@ module fr.istic.hanoi {
     requires javafx.controls;
     requires javafx.fxml;
     requires org.junit.jupiter.api;
+    requires java.logging;
 
 
     opens fr.istic.hanoi to javafx.fxml, org.junit.platform.commons;
