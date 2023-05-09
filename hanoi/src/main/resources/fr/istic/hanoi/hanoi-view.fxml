@@ -4,16 +4,16 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 
-<Pane id="gameScene" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.istic.hanoi.HanoiController">
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="300.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="80.0" y="80.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="300.0" layoutX="5.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="290.0" y="80.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="300.0" layoutX="10.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="500.0" y="80.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="10.0" y="380.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="440.0" y="380.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#FF9EE0" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="225.0" y="380.0" />
+<Pane id="gameScene" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.istic.hanoi.HanoiController">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="300.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="160.0" y="85.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="300.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="395.0" y="86.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="300.0" stroke="BLACK" strokeType="INSIDE" width="10.0" x="630.0" y="85.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="90.0" y="380.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="560.0" y="380.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#DD99FF" height="10.0" stroke="BLACK" strokeType="INSIDE" width="150.0" x="325.0" y="380.0" />
 
-    <GridPane fx:id="grid" alignment="TOP_CENTER" hgap="105.0" layoutY="37.0" prefHeight="360.0" prefWidth="600.0">
-        <padding><Insets left="30.0" right="30.0" top="100.0" /></padding>
+    <GridPane fx:id="grid" alignment="TOP_CENTER" hgap="90.0" layoutY="37.0" prefHeight="360.0" prefWidth="800.0">
+        <padding><Insets left="90.0" right="90.0" top="100.0" /></padding>
 
          <columnConstraints>
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="100.0" />
