@@ -22,6 +22,9 @@ public class HanoiController implements Initializable {
         Logger.getGlobal().info("Unimplemented");
     }
 
+
+
+
     private HanoiModel model;
     private Map<Integer, Text> discViews = new HashMap<>();
 
